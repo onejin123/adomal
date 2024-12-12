@@ -39,3 +39,4 @@
 ---
 
 ## 프로젝트 구조
+📂 src ├── 📂 backend │ ├── 📂 models # 데이터베이스 모델 │ ├── 📂 routes # API 라우트 │ └── app.js # Express 서버 설정 ├── 📂 frontend │ ├── 📂 components # React 컴포넌트 │ ├── 📂 pages # 주요 페이지 │ └── index.tsx # React 진입점 └── 📂 ai-models ├── qwen.py # Qwen OCR API ├── yolo.py # YOLOv5 객체 탐지 └── flask_app.py # Flask API 서버
